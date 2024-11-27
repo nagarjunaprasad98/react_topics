@@ -1,0 +1,29 @@
+[
+  {
+    "parentTo": "",
+    "parentLabel": "Dashboard"
+  },
+  {
+    "parentLabel": "Hooks",
+    "child": [
+      { "childTo": "usestate", "childLabel": "UseState Hook" },
+      { "childTo": "useEffect", "childLabel": "UseEffect Hook" },
+      { "childTo": "useRef", "childLabel": "UseRef Hook" },
+      { "childTo": "useMemo", "childLabel": "UseMemo Hook" }
+    ]
+  },
+  {
+    "parentTo": "apexCharts",
+    "parentLabel": "Apex Charts",
+    "child": [
+      { "childTo": "pieChart", "childLabel": "Pie Chart" }
+    ]
+  },
+  {
+    "parentTo": "geoChars",
+    "parentLabel": "Geo Charts",
+    "child": [
+      { "childTo": "markerschart", "childLabel": "Markers Chart" }
+    ]
+  }
+]
